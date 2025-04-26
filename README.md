@@ -25,12 +25,19 @@ Execute the program using runserver command.
 
 ## PROGRAM
 '''
+
 <!DOCTYPE html>
+
 <html lang="en">
+    
 <head>
-    <meta charset="UTF-8">
-    <title>Slot Timetable - Harini</title>
-    <style>
+    
+<meta charset="UTF-8">
+
+<title>Slot Timetable - Harini</title>
+
+<style>
+    
         body {
             background-color: #f0f8ff;
             font-family: Arial, sans-serif;
@@ -60,17 +67,20 @@ Execute the program using runserver command.
             display: block;
             margin: 20px auto;
         }
-    </style>
+    
+</style>
+
 </head>
+
 <body>
 
 <center>
-    <img src="logo.png" height="100" width="540" alt="College Logo">
+<img src="logo.png" height="100" width="540" alt="College Logo">
 </center>
 
 <table>
-    <caption>SLOT TIMETABLE - HARINI.S (212224230083)</caption>
-    <tr>
+<caption>SLOT TIMETABLE - HARINI.S (212224230083)</caption>
+<tr>
         <th>Day/Time</th>
         <th>Monday</th>
         <th>Tuesday</th>
@@ -78,8 +88,8 @@ Execute the program using runserver command.
         <th>Thursday</th>
         <th>Friday</th>
         <th>Saturday</th>
-    </tr>
-    <tr>
+</tr>
+<tr>
         <th>8-9 AM</th>
         <td>19MA222</td>
         <td>19AI305</td>
@@ -87,36 +97,36 @@ Execute the program using runserver command.
         <td>19AI414</td>
         <td>19AI410</td>
         <td rowspan="5" style="background-color: #ffe4b5;">Module Completion</td>
-    </tr>
-    <tr>
+</tr>
+<tr>
         <th>9-10 AM</th>
         <td>19AI410</td>
         <td>19AI301C</td>
         <td>19EY710</td>
         <td>19MA222</td>
         <td>19AI305</td>
-    </tr>
-    <tr>
+</tr>
+<tr>
         <th>10-11 AM</th>
         <td>19AI301C</td>
         <td>19EY709</td>
         <td>19AI414</td>
         <td>19AI403</td>
         <td>19EY710</td>
-    </tr>
-    <tr>
+</tr>
+<tr>
         <th>11-12 PM</th>
         <td>19AI403</td>
         <td>19AI305</td>
         <td>19MA222</td>
         <td>19EY709</td>
         <td>19AI301C</td>
-    </tr>
-    <tr>
+</tr>
+<tr>
         <th>12-1 PM</th>
         <td colspan="5" style="background-color: #ffa07a;">Lunch Break</td>
-    </tr>
-    <tr>
+</tr>
+<tr>
         <th>1-2 PM</th>
         <td>19EY709</td>
         <td>19AI410</td>
@@ -124,8 +134,8 @@ Execute the program using runserver command.
         <td>19AI403</td>
         <td>19MA222</td>
         <td style="background-color: #ffe4b5;">Sessional Prep</td>
-    </tr>
-    <tr>
+</tr>
+<tr>
         <th>2-3 PM</th>
         <td>19AI414</td>
         <td>19EY710</td>
@@ -133,57 +143,57 @@ Execute the program using runserver command.
         <td>19AI410</td>
         <td>19AI414</td>
         <td style="background-color: #ffe4b5;">Sessional Prep</td>
-    </tr>
+</tr>
 </table>
 
 <!-- Subject Codes Table -->
 <table border="2" style="margin-top: 30px; width: 60%; margin-left: auto; margin-right: auto;">
-    <caption><b>Subject Details</b></caption>
-    <tr>
+<caption><b>Subject Details</b></caption>
+<tr>
         <th>S.No.</th>
         <th>Subject Code</th>
         <th>Subject Name</th>
-    </tr>
-    <tr>
+</tr>
+<tr>
         <td>1</td>
         <td>19MA222</td>
         <td>Probability and Queueing Models</td>
-    </tr>
-    <tr>
+</tr>
+<tr>
         <td>2</td>
         <td>19AI305</td>
         <td>Advanced C Programming</td>
-    </tr>
-    <tr>
+</tr>
+<tr>
         <td>3</td>
         <td>19AI403</td>
         <td>Introduction to Data Science</td>
-    </tr>
-    <tr>
+</tr>
+<tr>
         <td>4</td>
         <td>19AI414</td>
         <td>Fundamentals of Web Application Development</td>
-    </tr>
-    <tr>
+</tr>
+<tr>
         <td>5</td>
         <td>19AI410</td>
         <td>Introduction to Machine Learning</td>
-    </tr>
-    <tr>
+</tr>
+<tr>
         <td>6</td>
         <td>19AI301C</td>
         <td>Python and Linear Algebra</td>
-    </tr>
-    <tr>
+</tr>
+<tr>
         <td>7</td>
         <td>19EY710</td>
         <td>Quantitative Ability</td>
-    </tr>
-    <tr>
+</tr>
+<tr>
         <td>8</td>
         <td>19EY709</td>
         <td>Reasoning Ability</td>
-    </tr>
+</tr>
 </table>
 
 </body>
